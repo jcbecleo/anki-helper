@@ -46,10 +46,6 @@ export default function Home() {
             </div>
           </div>
           
-          {/* Footer Note */}
-          <div className="mt-8 text-center text-sm text-gray-500">
-            <p>Need help? Check out our <a href="#" className="text-blue-600 hover:underline">guide</a> for detailed instructions.</p>
-          </div>
         </div>
       </div>
     </main>
