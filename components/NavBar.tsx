@@ -13,19 +13,20 @@ export function Navbar() {
             className="text-lg font-medium text-zinc-200 hover:text-white transition-colors"
           >
             anki
-            <span className="text-blue-500">helper</span>
+            <span className="text-purple-500">helper</span>
           </Link>
         </div>
 
         <div className="flex items-center space-x-4">
-          <Button
-            variant="ghost"
-            size="sm"
+          <a
             className="hidden md:flex items-center space-x-2 text-zinc-400 hover:text-white"
+            href="https://github.com/jcbecleo/anki-helper"
           >
-            <Github className="h-4 w-4" />
-            <span className="text-sm">Star on GitHub</span>
-          </Button>
+            <Button variant="ghost" size="sm">
+              <Github className="h-4 w-4" />
+              <span className="text-sm">Star on GitHub</span>
+            </Button>
+          </a>
         </div>
       </div>
     </nav>
